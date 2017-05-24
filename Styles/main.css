@@ -1,0 +1,95 @@
+*, *::before, *::after {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ } 
+
+html {
+     height: 100%; 
+     font-size: 100%;
+ }
+ 
+ body {
+     font-family: 'Open Sans'; 
+     color: white;             
+     min-height: 100%;        
+ }
+
+body .home-image img {
+    opacity: 10;
+	transition: opacity 3.5s;
+    padding-top: 1rem;
+    position: relative;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    cursor: default;
+    
+}
+
+body .home-image img[data-src]{
+    opacity:0;
+}
+
+.navbar {
+    position: relative;
+}
+ .navbar .logo img {
+     position: relative; 
+     display: block;
+     float: none;
+     margin: 0 auto;
+     cursor: pointer;  
+ }
+
+.topnav {
+    float: none;
+    display: table;
+    border: none;
+    border-width: 0px;
+    list-style:none;
+    margin:0 auto;
+    padding: relative;
+    padding-top: 0.5rem;
+    text-align:center;
+}
+
+.topnav li {
+    display: table-cell;
+     position: relative;
+     height: 100%;
+     padding-left: 2.5rem;
+     padding-right: 2.5rem;
+     vertical-align: middle;
+     font-size: 0.825rem;
+     letter-spacing: 0.08rem;
+     font-weight: 700;
+     cursor: pointer;
+    
+}
+
+.topnav a {
+    color: rgb(188, 159, 149);
+    text-decoration: none;
+
+}
+
+.navbar .topnav a:hover {
+    text-decoration: overline;
+    color: black;
+}
+
+.navbar .topnav a:active {
+    color: bc9f95;
+    text-decoration: overline;
+}
+
+.navbar .bridge img {
+    position: relative; 
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
+
+
