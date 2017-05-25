@@ -17,7 +17,7 @@ html {
 
 body .home-image img {
     opacity: 10;
-	transition: opacity 3.5s;
+	transition: opacity 3.8s;
     padding-top: 1rem;
     position: relative;
     display: block;
@@ -84,10 +84,10 @@ body .home-image img[data-src]{
     text-decoration: overline;
 }
 
-.navbar .bridge img {
+.selfPic {
     position: relative; 
     display: block;
-    float: none;
+    float: right;
     margin: 0 auto;
 }
 

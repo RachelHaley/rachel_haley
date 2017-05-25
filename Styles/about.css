@@ -1,0 +1,52 @@
+* {
+padding:0;
+margin: 0;
+}
+
+.header {
+    color: dimgray;
+    font: 2rem verdana, sans-serif;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0rem;
+    border-bottom: 1rem;
+}
+
+.about {
+    width:100%;
+    height:auto;
+    padding:1%;
+}
+
+
+.biography {
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 8rem;
+    color:dimgrey;
+    display:inline-block;
+    position:relative;
+    float: left;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    line-height: 155%
+    
+}
+
+p {
+ border-left: thick double rgb(188, 159, 149);
+}
+
+.bridge {
+    margin:0 2%;
+    float:right;
+    display: inline-block;
+}
+
+.ion-ios-bolt-outline {
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1rem;
+    margin-top: 1rem;
+}
