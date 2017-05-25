@@ -3,44 +3,38 @@ padding:0;
 margin: 0;
 }
 
-.header {
-    color: dimgray;
-    font: 2rem verdana, sans-serif;
-    padding-left: 2rem;
-    padding-bottom: 1rem;
-    margin-bottom: 0rem;
-    border-bottom: 1rem;
-}
-
 .about {
     width:100%;
     height:auto;
     padding:1%;
 }
 
-
 .biography {
-    width: 100%;
-    padding-left: 1.5rem;
-    padding-right: 8rem;
-    color:dimgrey;
-    display:inline-block;
-    position:relative;
     float: left;
+    text-align: center;
+    width: 350px;
+    height: auto;
+    padding-left: 1.5rem;
+    color:dimgrey;
     margin-left: 2.5rem;
-    margin-top: 2rem;
-    line-height: 155%
-    
+    margin-top: 1rem;
+    line-height: 195%
 }
 
 p {
+    display:inline-block;
+    padding:40px;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
  border-left: thick double rgb(188, 159, 149);
 }
 
 .bridge {
-    margin:0 2%;
-    float:right;
-    display: inline-block;
+    float: right;
+    opacity: 0.83;
+    margin-top: 3rem
+    
+        
 }
 
 .ion-ios-bolt-outline {
